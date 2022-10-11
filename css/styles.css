@@ -1,0 +1,35 @@
+body {
+  font-family: 'Courier New';
+}
+
+nav {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #000000;
+}
+
+.page-nav {
+  color: #000000;
+}
+
+.page-nav:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
